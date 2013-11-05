@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileConfigBuilder", "MobileConfigBuilder\MobileConfigBuilder.csproj", "{E80A73C3-5266-4112-AD87-97C681BB8705}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileConfig", "MobileConfig\MobileConfig.csproj", "{38EC0632-63FF-4C9C-AB7A-1B3637C4F25B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MobileConfigBuilderInstall", "MobileConfigInstall\MobileConfigBuilderInstall.vdproj", "{2014104F-54F0-4657-B37F-1B767AE87B89}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E80A73C3-5266-4112-AD87-97C681BB8705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80A73C3-5266-4112-AD87-97C681BB8705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80A73C3-5266-4112-AD87-97C681BB8705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80A73C3-5266-4112-AD87-97C681BB8705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EC0632-63FF-4C9C-AB7A-1B3637C4F25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EC0632-63FF-4C9C-AB7A-1B3637C4F25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EC0632-63FF-4C9C-AB7A-1B3637C4F25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EC0632-63FF-4C9C-AB7A-1B3637C4F25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2014104F-54F0-4657-B37F-1B767AE87B89}.Debug|Any CPU.ActiveCfg = Debug
+		{2014104F-54F0-4657-B37F-1B767AE87B89}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

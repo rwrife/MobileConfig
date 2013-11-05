@@ -1,0 +1,279 @@
+<?xml version="1.0" standalone="yes"?>
+<MobileConfig>
+<!--Settings-->
+  <Config>
+    <ConfigID>1</ConfigID>
+    <Name>Glyph Cache</Name>
+    <Description>Sets the amount of memory dedicated to caching graphics information.</Description>
+  </Config>
+  <Config>
+    <ConfigID>2</ConfigID>
+    <Name>FAT File Cache</Name>
+    <Description>Sets the amount of memory dedicated to caching file system information.</Description>
+  </Config>
+  <Config>
+    <ConfigID>3</ConfigID>
+    <Name>Scrollbar Size</Name>
+    <Description>Adjusts the width or height the scroll bars that appear on the screen.</Description>
+  </Config>
+  <Config>
+    <ConfigID>4</ConfigID>
+    <Name>SMS Sent Message Popup</Name>
+    <Description>Enable or disable the message that appears after an SMS has been sent.</Description>
+  </Config>
+  <Config>
+    <ConfigID>5</ConfigID>
+    <Name>MobileConfig Settings</Name>
+    <Description>Allows you to change the online update url settings.</Description>
+  </Config>
+  <Config>
+    <ConfigID>6</ConfigID>
+    <Name>ActiveSync Device Name</Name>
+    <Description>Allows you to change your ActiveSync device name.  Note: Do NOT use spaces in the name!</Description>
+  </Config>
+
+<!--Config inputs-->
+  <Question>
+    <QuestionID>1</QuestionID>
+    <ConfigID>1</ConfigID>
+    <Name>Glyph Cache Size</Name>
+    <DefaultValue>2</DefaultValue>
+    <SelectedRegValue>1</SelectedRegValue>
+  </Question>
+  <Question>
+    <QuestionID>2</QuestionID>
+    <ConfigID>2</ConfigID>
+    <Name>Enable FAT File Cache</Name>
+    <DefaultValue>5</DefaultValue>
+    <SelectedRegValue>3</SelectedRegValue>
+  </Question>
+  <Question>
+    <QuestionID>3</QuestionID>
+    <ConfigID>2</ConfigID>
+    <Name>FAT File Cache Size</Name>
+    <DefaultValue>6</DefaultValue>
+    <SelectedRegValue>2</SelectedRegValue>
+  </Question>
+
+  <Question>
+    <QuestionID>4</QuestionID>
+    <ConfigID>3</ConfigID>
+    <Name>Horizontal Bar Height</Name>
+    <SelectedRegValue>4</SelectedRegValue>
+  </Question>
+  <Question>
+    <QuestionID>5</QuestionID>
+    <ConfigID>3</ConfigID>
+    <Name>Vertical Bar Width</Name>
+    <SelectedRegValue>5</SelectedRegValue>
+  </Question>
+
+  <Question>
+    <QuestionID>6</QuestionID>
+    <ConfigID>4</ConfigID>
+    <Name>SMS Popup Message</Name>
+    <SelectedRegValue>6</SelectedRegValue>
+    <DefaultValue>13</DefaultValue>
+  </Question>
+
+<!--MobileConfig-->
+  <Question>
+    <QuestionID>7</QuestionID>
+    <ConfigID>5</ConfigID>
+    <Name>Download URL</Name>
+    <SelectedRegValue>7</SelectedRegValue>
+  </Question>
+
+<!--ActiveSync-->
+  <Question>
+    <QuestionID>8</QuestionID>
+    <ConfigID>6</ConfigID>
+    <Name>Device Name</Name>
+    <SelectedRegValue>8</SelectedRegValue>
+  </Question>
+
+<!--Glyph cache values-->
+  <Value>
+    <ValueID>1</ValueID>
+    <QuestionID>1</QuestionID>
+    <Name>4MB</Name>
+    <Value>4096</Value>
+    <RegValues>1</RegValues>
+  </Value>
+  <Value>
+    <ValueID>2</ValueID>
+    <QuestionID>1</QuestionID>
+    <Name>8MB</Name>
+    <Value>8192</Value>
+    <RegValues>1</RegValues>
+  </Value>
+  <Value>
+    <ValueID>3</ValueID>
+    <QuestionID>1</QuestionID>
+    <Name>16MB</Name>
+    <Value>16384</Value>
+    <RegValues>1</RegValues>
+  </Value>
+  <Value>
+    <ValueID>4</ValueID>
+    <QuestionID>1</QuestionID>
+    <Name>32MB</Name>
+    <Value>32768</Value>
+    <RegValues>1</RegValues>
+  </Value>
+
+<!--File system cache values-->
+  <Value>
+    <ValueID>5</ValueID>
+    <QuestionID>2</QuestionID>
+    <Name>Enabled</Name>
+    <RegValues>3</RegValues>
+    <Value>1</Value>
+  </Value>
+  <Value>
+    <ValueID>6</ValueID>
+    <QuestionID>3</QuestionID>
+    <Name>4MB</Name>
+    <Value>4096</Value>
+    <RegValues>2</RegValues>
+  </Value>
+  <Value>
+    <ValueID>7</ValueID>
+    <QuestionID>3</QuestionID>
+    <Name>8MB</Name>
+    <Value>8192</Value>
+    <RegValues>2</RegValues>
+  </Value>
+  <Value>
+    <ValueID>8</ValueID>
+    <QuestionID>3</QuestionID>
+    <Name>16MB</Name>
+    <Value>16384</Value>
+    <RegValues>2</RegValues>
+  </Value>
+  <Value>
+    <ValueID>9</ValueID>
+    <QuestionID>3</QuestionID>
+    <Name>32MB</Name>
+    <Value>32768</Value>
+    <RegValues>2</RegValues>
+  </Value>
+  <Value>
+    <ValueID>10</ValueID>
+    <QuestionID>2</QuestionID>
+    <Name>Disabled</Name>
+    <RegValues>3</RegValues>
+    <Value>0</Value>
+  </Value>
+
+<!--Scrollbar values-->
+  <Value>
+    <ValueID>11</ValueID>
+    <QuestionID>4</QuestionID>
+    <RegValues>4</RegValues>
+  </Value>
+
+  <Value>
+    <ValueID>12</ValueID>
+    <QuestionID>5</QuestionID>
+    <RegValues>5</RegValues>
+  </Value>
+
+  <Value>
+    <ValueID>13</ValueID>
+    <QuestionID>6</QuestionID>
+    <Name>Enabled</Name>
+    <RegValues>6</RegValues>
+    <Value>0</Value>
+  </Value>
+
+  <Value>
+    <ValueID>14</ValueID>
+    <QuestionID>6</QuestionID>
+    <Name>Disabled</Name>
+    <RegValues>6</RegValues>
+    <Value>1</Value>
+  </Value>
+
+<!--MobileConfig-->
+  <Value>
+    <ValueID>15</ValueID>
+    <QuestionID>7</QuestionID>
+    <RegValues>7</RegValues>
+    <Value>http://www.infinityball.com/GetFile.aspx?FileID=60</Value>
+  </Value>
+
+
+<!--ActiveSync-->
+  <Value>
+    <ValueID>16</ValueID>
+    <QuestionID>8</QuestionID>
+    <RegValues>8</RegValues>
+  </Value>
+
+<!--Set glyph cache size-->
+  <RegValue>
+    <RegValueID>1</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>SYSTEM\GDI\GLYPHCACHE</SubKey>
+    <Name>limit</Name>
+    <Type>1</Type>
+  </RegValue>
+<!--Set file system cache size-->
+  <RegValue>
+    <RegValueID>2</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>System\StorageManager\FATFS</SubKey>
+    <Name>CacheSize</Name>
+    <Type>1</Type>
+  </RegValue>
+<!--Enable/Disable file system cache-->
+  <RegValue>
+    <RegValueID>3</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>System\StorageManager\FATFS</SubKey>
+    <Name>EnableCache</Name>
+    <Type>1</Type>
+  </RegValue>
+<!--Horizontal scrollbar size-->
+  <RegValue>
+    <RegValueID>4</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>System\GWE</SubKey>
+    <Name>cyHScr</Name>
+    <Type>1</Type>
+  </RegValue>
+<!--Vertical scrollbar size-->
+  <RegValue>
+    <RegValueID>5</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>System\GWE</SubKey>
+    <Name>cxVScr</Name>
+    <Type>1</Type>
+  </RegValue>
+<!--SMS-->
+  <RegValue>
+    <RegValueID>6</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>SOFTWARE\Microsoft\Inbox\Settings</SubKey>
+    <Name>SMSNoSentMsg</Name>
+    <Type>1</Type>
+  </RegValue>
+
+  <RegValue>
+    <RegValueID>7</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>SOFTWARE\MobileConfig</SubKey>
+    <Name>DownloadURL</Name>
+    <Type>2</Type>
+  </RegValue>
+
+  <RegValue>
+    <RegValueID>8</RegValueID>
+    <Key>HKEY_LOCAL_MACHINE</Key>
+    <SubKey>Ident</SubKey>
+    <Name>Name</Name>
+    <Type>2</Type>
+  </RegValue>
+
+</MobileConfig>
